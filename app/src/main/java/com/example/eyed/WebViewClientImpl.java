@@ -21,7 +21,7 @@ public class WebViewClientImpl extends WebViewClient {
     }
     @Override
     public boolean shouldOverrideUrlLoading(WebView webView, String url) {
-        if(url.indexOf("https://eyedapps.000webhostapp.com") > -1 ) return false;
+        if(url.indexOf("https://smartphone.edgeimpulse.com/classifier.html?apiKey=ei_c728c47b9eeeaf5604fb4d666a5a48e2813513647e75d9ab322fe16f867a6f92") > -1 ) return false;
 
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         activity.startActivity(intent);
