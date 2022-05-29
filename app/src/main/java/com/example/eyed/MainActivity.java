@@ -91,7 +91,7 @@ public class MainActivity extends Activity  {
             }
         });
         webView.setWebViewClient(webViewClient);
-        webView.loadUrl("https://eyedapps.000webhostapp.com/");
+        webView.loadUrl("https://smartphone.edgeimpulse.com/classifier.html?apiKey=ei_c728c47b9eeeaf5604fb4d666a5a48e2813513647e75d9ab322fe16f867a6f92");
 
     }
 
